@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Creativa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🧮 Calculadora Creativa</h1>
+  <div class="container">
+    <div class="chat">
+      <textarea id="input" placeholder="Escribe tu operación (ej: 2*3)..."></textarea>
+      <button onclick="resolver()">Resolver</button>
+      <div id="respuesta"></div>
+    </div>
+    <div class="calculadora">
+      <iframe src="https://www.desmos.com/scientific?lang=es" width="300" height="400"></iframe>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
